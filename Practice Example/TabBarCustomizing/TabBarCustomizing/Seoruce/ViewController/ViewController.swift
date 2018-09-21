@@ -23,7 +23,15 @@ class ViewController: UIViewController {
         title.center.x = self.view.frame.width / 2
         self.view.addSubview(title)
     }
-
-
+    
+    // 첫번째 탭에의 화면을 누르면 탭바 숨기기 동작
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let tabBar = self.tabBarController?.tabBar
+//        tabBar?.isHidden = (tabBar?.isHidden == true) ? false : true
+        
+        UIView.animate(withDuration: 0.15) {
+            tabBar?.alpha = tabBar?.alpha == 0 ? 1 : 0
+        }
+    }
 }
 
