@@ -14,6 +14,8 @@
 		594D07192158DC55009BCEA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594D07172158DC55009BCEA8 /* LaunchScreen.storyboard */; };
 		594D07212158ECEE009BCEA8 /* MapAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594D07202158ECEE009BCEA8 /* MapAlertVC.swift */; };
 		594D07232158F088009BCEA8 /* MapKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594D07222158F088009BCEA8 /* MapKitVC.swift */; };
+		59570EC1215A7682001BB405 /* ControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59570EC0215A7682001BB405 /* ControlVC.swift */; };
+		59570EC5215A8286001BB405 /* ListViewTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59570EC4215A8286001BB405 /* ListViewTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		594D071A2158DC55009BCEA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		594D07202158ECEE009BCEA8 /* MapAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAlertVC.swift; sourceTree = "<group>"; };
 		594D07222158F088009BCEA8 /* MapKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitVC.swift; sourceTree = "<group>"; };
+		59570EC0215A7682001BB405 /* ControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlVC.swift; sourceTree = "<group>"; };
+		59570EC4215A8286001BB405 /* ListViewTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,9 @@
 				594D070E2158DC54009BCEA8 /* AppDelegate.swift */,
 				594D07102158DC54009BCEA8 /* ViewController.swift */,
 				594D07202158ECEE009BCEA8 /* MapAlertVC.swift */,
+				59570EC0215A7682001BB405 /* ControlVC.swift */,
 				594D07222158F088009BCEA8 /* MapKitVC.swift */,
+				59570EC4215A8286001BB405 /* ListViewTVC.swift */,
 				594D07122158DC54009BCEA8 /* Main.storyboard */,
 				594D07152158DC55009BCEA8 /* Assets.xcassets */,
 				594D07172158DC55009BCEA8 /* LaunchScreen.storyboard */,
@@ -143,8 +149,10 @@
 			files = (
 				594D07232158F088009BCEA8 /* MapKitVC.swift in Sources */,
 				594D07112158DC54009BCEA8 /* ViewController.swift in Sources */,
+				59570EC5215A8286001BB405 /* ListViewTVC.swift in Sources */,
 				594D07212158ECEE009BCEA8 /* MapAlertVC.swift in Sources */,
 				594D070F2158DC54009BCEA8 /* AppDelegate.swift in Sources */,
+				59570EC1215A7682001BB405 /* ControlVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,7 +18,12 @@ class ViewController: UIViewController {
         defaultAlertBtn.setTitle("기본 알림창", for: .normal)
         defaultAlertBtn.addTarget(self, action: #selector(defaultAlert), for: .touchUpInside)
         self.view.addSubview(defaultAlertBtn)
+        
+        
     }
+    
+    
+    
     @objc func defaultAlert(_ sender: Any) {
         let alert = UIAlertController(title: nil, message: "기본 메시지가 들어가는 곳", preferredStyle: .alert)
         
